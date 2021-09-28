@@ -18,11 +18,11 @@ class Config(object):
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
     ONE_PROCESS_ONLY = bool(os.environ.get("ONE_PROCESS_ONLY", False))
     START_TEXT = """
-I am Telegram Files Rename Bot.
+Sent me your coustom thumbnail
 
-Send me a File to Rename.
+Input your coustom caption
 
-Made by @AbirHasan2005
+Input file name with .mkv (Extinction)
     """
     PROGRESS = """
 Percentage : {0}%
